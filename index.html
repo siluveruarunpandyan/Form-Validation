@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation | Using HTML CSS JAVASCRIPT|</title>
+    <!--Favicon link-->
+    <link rel="icon" type="image/x-icon" href="/favicon form.png">
+    <!--font awesomoe cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--normalise css link-->
+    <link rel="stylesheet" href="./stylesheet/normalise.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="./stylesheet/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Register here</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="username">username</label></td>
+                        
+            <td><input type="text" id="username" name="username" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                        
+                    <td><input type="Email" id="Email" name="Email" placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password :</label></td>
+                        
+                        
+                    <td><input type="text" id="Password" name="Password" placeholder="Enter your Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Number :</label></td>
+                        
+            
+                    <td><input type="number" id="number" name="number" placeholder="Enter your number"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Gender">Gender :</label></td>
+            <td>Male: <input type="radio" id="Gender" name="Gender" value="male">
+            female: <input type="radio" id="Gender" name="Gender" value="female">
+            other: <input type="radio" id="Gender" name="Gender" value="other">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="language">language</label></td>
+            <td><select name="language" id="language">
+                <option value="">select language</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Tamil">tamil</option>
+                <option value="Kannada">Kannada</option>
+            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Zipcode">Zipcode:</label></td>
+            <td><input type="number" id="use" name="Zipcode" placeholder="Enter your Zipcode">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="About">About :</label></td>
+            <td><input type="text" id="About" name="About" placeholder="Write about yourself">
+                    </td>
+                </tr>
+            </table>
+            <button class="btn">submit</button>
+
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
