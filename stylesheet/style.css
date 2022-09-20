@@ -121,6 +121,11 @@ label{
     border: 2px solid var(--clr-white);
     color: var(--clr-dark);
 }
+.btn-light:hover{
+    background-color: transparent;
+    color: var(--clr-white);
+    transition: var(--transition);
+}
 
 .btn-block{
     display: block;
@@ -128,7 +133,7 @@ label{
     margin: 0.5rem auto;
 }
 
-@media screen and (max-width:768px) {
+/*@media screen and (max-width:768px) {
    input{
     
    } 
@@ -136,6 +141,6 @@ label{
 
    }
     
-}
+}*/
 
 
