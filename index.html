@@ -19,64 +19,77 @@
     <div class="container row">
         <div class="card">
             <h1 class="title">Register here</h1>
-        <form class="submit-form">
+        <form class="submit-form ">
             <table>
-                <tr class="tr">
+                <div>
+                    <tr class="tr">
                     <td><label for="username">Username :</label></td>
-                        
-            <td><input type="text" id="username" name="username" placeholder="Enter your name">
+                    <td><input type="text" id="username" name="username" placeholder="Enter your name">
                     </td>
+                    <!--<td><small>Username is required</small></td>-->
                 </tr>
-                <tr class="tr">
+            </div>
+            
+                <div>
+                    <tr class="tr">
                     <td><label for="Email">Email :</label></td>
-                        
                     <td><input type="Email" id="Email" name="Email" placeholder="Enter your Email"></td>
                 </tr>
-                <tr class="tr">
+            </div>
+                <div>
+                    <tr class="tr">
                     <td><label for="Password">Password :</label></td>
-                        
-                        
                     <td><input type="text" id="Password" name="Password" placeholder="Enter your Password"></td>
                 </tr>
-                <tr class="tr">
-                    <td><label for="number">Number :</label></td>
-                        
-            
-                    <td><input type="number" id="number" name="number" placeholder="Enter your number"></td>
-                </tr>
-                <tr class="tr">
-                    <td>
-                        <label for="Gender">Gender :</label></td>
-            <td>Male: <input type="radio" id="Gender" name="Gender" value="male" class="gender">
-            female: <input type="radio" id="Gender" name="Gender" value="female" class="gender">
-            other: <input type="radio" id="Gender" name="Gender" value="other" class="gender">
-                    </td>
-                </tr>
-                <tr class="tr">
-                    <td>
-                        <label for="language">language</label></td>
-            <td><select name="language" id="language" class="language">
-                <option value="">select language</option>
-                <option value="Telugu">Telugu</option>
-                <option value="Hindi">Hindi</option>
-                <option value="English">English</option>
-                <option value="Tamil">tamil</option>
-                <option value="Kannada">Kannada</option>
-            </select>
-                    </td>
-                </tr>
-                <tr class="tr">
-                    <td>
-                        <label for="Zipcode">Zipcode:</label></td>
-            <td><input type="number" id="use" name="Zipcode" placeholder="Enter your Zipcode">
-                    </td>
-                </tr>
-                <tr class="tr">
-                    <td>
-                        <label for="About">About :</label></td>
-            <td><input type="text" id="About" name="About" placeholder="Write about yourself" class="about">
-                    </td>
-                </tr>
+            </div>
+                <div>
+                    <tr class="tr">
+                        <td><label for="number">Number :</label></td>
+                        <td><input type="number" id="number" name="number" placeholder="Enter your number"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="tr">
+                        <td>
+                            <label for="Gender">Gender :</label></td>
+                <td>Male: <input type="radio" id="Gender" name="Gender" value="male" class="gender">
+                female: <input type="radio" id="Gender" name="Gender" value="female" class="gender">
+                other: <input type="radio" id="Gender" name="Gender" value="other" class="gender">
+                        </td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="tr">
+                        <td>
+                            <label for="language">language</label></td>
+                <td><select name="language" id="language" class="language">
+                    <option value="">select language</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="English">English</option>
+                    <option value="Tamil">tamil</option>
+                    <option value="Kannada">Kannada</option>
+                </select>
+                        </td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="tr">
+                        <td>
+                            <label for="Zipcode">Zipcode:</label></td>
+                <td><input type="number" id="use" name="Zipcode" placeholder="Enter your Zipcode">
+                        </td>
+                    </tr> 
+                </div>
+                <div>
+                    <tr class="tr">
+                        <td>
+                            <label for="About">About :</label></td>
+                <td><input type="text" id="About" name="About" placeholder="Write about yourself" class="about">
+                        </td>
+                    </tr>
+                </div>
+                
             </table>
             <button class="btn btn-light btn-block">submit</button>
 
